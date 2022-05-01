@@ -6,6 +6,8 @@
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/bin/Debug/net6.0/TangyWeb_Server.runtimeconfig.json
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/bin/Debug/net6.0/TangyWeb_Server.dll
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/bin/Debug/net6.0/TangyWeb_Server.pdb
+/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/bin/Debug/net6.0/Tangy_Models.dll
+/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/bin/Debug/net6.0/Tangy_Models.pdb
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/Debug/net6.0/TangyWeb_Server.csproj.AssemblyReference.cache
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/Debug/net6.0/TangyWeb_Server.GeneratedMSBuildEditorConfig.editorconfig
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/Debug/net6.0/TangyWeb_Server.AssemblyInfoInputs.cache
@@ -20,6 +22,7 @@
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/Debug/net6.0/scopedcss/bundle/TangyWeb_Server.styles.css
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/Debug/net6.0/scopedcss/projectbundle/TangyWeb_Server.bundle.scp.css
+/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/Debug/net6.0/TangyWeb_Server.csproj.CopyComplete
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/Debug/net6.0/TangyWeb_Server.dll
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/Debug/net6.0/refint/TangyWeb_Server.dll
 /Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/Debug/net6.0/TangyWeb_Server.pdb
