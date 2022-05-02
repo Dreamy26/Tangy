@@ -9,7 +9,8 @@
     Active: <input type="checkbox" @bind-value="Product.IsActive" checked="@(Product.IsActive?"checked":null)" /><br />
     Price: <input type="number" @bind-value="@Product.Price" @bind-value:event="oninput"/>
     Product Properties:
-    <select>
+    
+    <select @bind="selectedProp">
         @foreach(var prop in Product.ProductProperties)
             {
                 <option value="@prop.Key">@prop.Value</option>
@@ -19,6 +20,8 @@
 
 
 @code {
+    private string selectedProp = "";
+
     Tangy_Models.LearnBlazorModels.Demo_Product Product = new()
     {
         Id = 1,
@@ -31,7 +34,7 @@
             new Tangy_Models.LearnBlazorModels.Demo_ProductProp { Id = 2, Key = "Flavor", Value="Rose Jasmin"}
             new Tangy_Models.LearnBlazorModels.Demo_ProductProp { Id = 3, Key = "Color", Value="20oz"}
         }
-        
+
 
     };
 
