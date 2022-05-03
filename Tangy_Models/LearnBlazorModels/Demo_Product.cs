@@ -1,15 +1,15 @@
 ﻿using System;
 namespace Tangy_Models.LearnBlazorModels
 {
-	public class Demo_Product
-	{
-		
-		public int Id { get; set; }
-		public string? Name { get; set; }
-		public bool IsActive { get; set; }
-		public double Price { get; set; }
+    public class Demo_Product
+    {
+
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        public bool IsActive { get; set; }
+        public double Price { get; set; }
         public string? ThisProductIs { get; set; }
-        public IEnumerable<Demo_ProductProp> ProductProperties { get; set; }
+        public List<Demo_ProductProp> ProductProperties { get; set; }
     }
 }
 
