@@ -35,6 +35,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvQmluZFByb3AucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/Pages/LearnBlazor/DemoProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvRGVtb1Byb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
