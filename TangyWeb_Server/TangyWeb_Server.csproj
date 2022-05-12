@@ -8,9 +8,11 @@
 
   <ItemGroup>
     <None Remove="Pages\LearnBlazor\" />
+    <None Remove="Pages\LearnBlazor\LearnBlazorComponenets\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\LearnBlazor\" />
+    <Folder Include="Pages\LearnBlazor\LearnBlazorComponenets\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tangy_Models\Tangy_Models.csproj">

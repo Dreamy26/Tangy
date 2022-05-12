@@ -15,7 +15,6 @@
 
         <div>
             Product Properties:
-
             <select @bind="selectedProp">
                 @foreach (var prop in Product.ProductProperties)
                 {
@@ -37,8 +36,9 @@
             <p>Property Value : @Product.ProductProperties.FirstOrDefault(u => u.Key == selectedProp).Value</p>
         }
     </div>
-
     <br />
+
+
     <div class="col-12 pt-4">
         <h2 class="text-success">Product Table</h2>
         <table class="table table-striped">

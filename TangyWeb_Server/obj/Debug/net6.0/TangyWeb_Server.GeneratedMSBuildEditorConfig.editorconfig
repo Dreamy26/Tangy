@@ -39,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvRGVtb1Byb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponenets/_EditDeleteButton.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvTGVhcm5CbGF6b3JDb21wb25lbmV0cy9fRWRpdERlbGV0ZUJ1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
