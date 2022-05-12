@@ -6,13 +6,13 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LearnBlazor/DemoProduct.razor">
     <Files>
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" Line="61" Column="1" />
-      <File FileName="TangyWeb_Server/Program.cs" Line="35" Column="1" />
-      <File FileName="Tangy_Models/LearnBlazorModels/Demo_Product.cs" Line="12" Column="64" />
-      <File FileName="Tangy_Models/LearnBlazorModels/Demo_ProductProp.cs" Line="8" Column="23" />
-      <File FileName="TangyWeb_Server/_Imports.razor" Line="11" Column="38" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" Line="88" Column="5" />
+      <File FileName="Tangy_Models/LearnBlazorModels/Demo_Product.cs" Line="16" Column="1" />
+      <File FileName="TangyWeb_Server/Shared/NavMenu.razor" Line="33" Column="63" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/DemoProduct.razor" Line="55" Column="1" />
+      <File FileName="TangyWeb_Server/Program.cs" Line="35" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,6 +24,9 @@
             <Node name="TangyWeb_Server" expanded="True">
               <Node name="Pages" expanded="True">
                 <Node name="LearnBlazor" expanded="True" />
+              </Node>
+              <Node name="Shared" expanded="True">
+                <Node name="NavMenu.razor" expanded="True" />
               </Node>
             </Node>
           </Node>
