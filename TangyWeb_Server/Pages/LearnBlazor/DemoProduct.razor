@@ -1,13 +1,14 @@
 ﻿@page "/learnBlazor/demoproduct"
 
 <h2 class="text-primary">DemoProduct</h2>
-<p>Favourites Total : @SelectedFavouriteCount</p>
+<p>Favorites Total : @SelectedFavouriteCount</p>
 
 <div class="border p-2 mt-2" style="background-color:azure">
     <div class="row">
         @foreach (var prod in Products)
         {
-            <_IndividualProduct Product="prod"></_IndividualProduct>
+            @*Passing OnFavoriteUdated to the indvidual product*@
+            <_IndividualProduct Product="prod" OnFavoriteUpdated="FavoriteCountUpdate"></_IndividualProduct>
         }
     </div>
 </div>
@@ -16,7 +17,7 @@
 @code {
     List<Demo_Product> Products = new();
 
-    @*will hold the number amount of whats in favorites*@
+    @*will hold the number amount of whats added to favorites*@
     private int SelectedFavouriteCount { get; set; } = 0;
 
 
