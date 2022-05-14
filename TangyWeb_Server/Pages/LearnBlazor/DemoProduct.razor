@@ -22,6 +22,7 @@
     @*will hold the number amount of whats added to favorites*@
     private int SelectedFavouriteCount { get; set; } = 0;
 
+    @*new Variable to hold the last Product name*@
     private string LastSelectedProductName { get; set; }
 
 
@@ -71,7 +72,7 @@
         }
     }
 
-    @*Update to last selected product name with the product name as The Parameter.*@
+    @*USER SELLECTED_Update to last selected product name with the product name as The Parameter. *@
     protected void SelectedProductUpdate(string productName)
     {
         LastSelectedProductName = productName;

@@ -1,7 +1,7 @@
 ﻿@*<h3>Component1</h3>*@
 
 
-<div class="bg-light border m-1 col-5">
+<div class="bg-light border m-1 col-5" @onclick="(args)=>LastSelectedProduct(args,Product.Name)">
     <h4 class="text-secondary">Product - @Product.Id</h4>
 
     @*onchange event*@
@@ -39,6 +39,12 @@
     private async Task FavoriteUpdated(ChangeEventArgs e)
     {
         @*explicitly converting to boolean*@
+        await OnFavoriteUpdated.InvokeAsync((bool)e.Value);
+    }
+
+    private async Task LastSelectedProduct(MouseEventArgs e, string name)
+    {
+        @**@
         await OnFavoriteUpdated.InvokeAsync((bool)e.Value);
     }
 
