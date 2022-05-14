@@ -8,7 +8,9 @@
         @foreach (var prod in Products)
         {
             @*Passing OnFavoriteUdated to the indvidual product*@
-            <_IndividualProduct Product="prod" OnFavoriteUpdated="FavoriteCountUpdate"></_IndividualProduct>
+            <_IndividualProduct Product="prod" OnFavoriteUpdated="FavoriteCountUpdate">
+                OnLastSelectedProductChange="SelectedProductUpdate"
+            </_IndividualProduct>
         }
     </div>
 </div>
@@ -19,6 +21,8 @@
 
     @*will hold the number amount of whats added to favorites*@
     private int SelectedFavouriteCount { get; set; } = 0;
+
+    private string LastSelectedProductName { get; set; }
 
 
     protected override void OnInitialized()
@@ -52,6 +56,7 @@
         });
     }
 
+    @*Parent component FavoriteCountUpdate*@
     @*Method that will increment and decrement the counter*@
     @*Invoked everytime the checkbox is toggled*@
     protected void FavoriteCountUpdate(bool isSelected)
@@ -65,5 +70,12 @@
             SelectedFavouriteCount--;
         }
     }
+
+    @*Update to last selected product name with the product name as The Parameter.*@
+    protected void SelectedProductUpdate(string productName)
+    {
+        LastSelectedProductName = productName;
+    }
+}
 }
 

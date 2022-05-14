@@ -3,6 +3,8 @@
 
 <div class="bg-light border m-1 col-5">
     <h4 class="text-secondary">Product - @Product.Id</h4>
+
+    @*onchange event*@
     <input type="checkbox" @onchange="FavoriteUpdated" /> Add to Favorite<br /><br />
     Name - @Product.Name<br />
     Show Properties :
@@ -20,6 +22,7 @@
     </_EditDeleteButton>
 </div>
 
+@*child components*@
 @code {
     [Parameter]
     public Demo_Product Product { get; set; }
@@ -28,7 +31,11 @@
     [Parameter]
     public EventCallback<bool> OnFavoriteUpdated { get; set; }
 
-    @*click on favorites selection to invoke method*@
+    [Parameter]
+    public EventCallback<string> OnlastSelectedProductChange { get; set; }
+
+    @*Child Component of FavoriteCountUpdate from DemoProduct*@
+    @*Click on favorites selection to invoke method*@
     private async Task FavoriteUpdated(ChangeEventArgs e)
     {
         @*explicitly converting to boolean*@
