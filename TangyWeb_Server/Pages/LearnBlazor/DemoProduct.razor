@@ -2,14 +2,15 @@
 
 <h2 class="text-primary">DemoProduct</h2>
 <p>Favorites Total : @SelectedFavouriteCount</p>
+<p>Last Selected Product : @LastSelectedProductName</p>
 
 <div class="border p-2 mt-2" style="background-color:azure">
     <div class="row">
         @foreach (var prod in Products)
         {
             @*Passing OnFavoriteUdated to the indvidual product*@
-            <_IndividualProduct Product="prod" OnFavoriteUpdated="FavoriteCountUpdate">
-                OnLastSelectedProductChange="SelectedProductUpdate"
+            <_IndividualProduct Product="prod" OnFavoriteUpdated="FavoriteCountUpdate"
+                                OnLastSelectedProductChange="SelectedProductUpdate">
             </_IndividualProduct>
         }
     </div>
@@ -23,7 +24,7 @@
     private int SelectedFavouriteCount { get; set; } = 0;
 
     @*new Variable to hold the last Product name*@
-    private string LastSelectedProductName { get; set; }
+    private string? LastSelectedProductName { get; set; }
 
 
     protected override void OnInitialized()

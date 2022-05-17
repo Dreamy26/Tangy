@@ -44,8 +44,8 @@
 
     private async Task LastSelectedProduct(MouseEventArgs e, string name)
     {
-        @**@
-        await OnFavoriteUpdated.InvokeAsync((bool)e.Value);
+        @*since this will always be a string.. DoNot explicitly convert to bool.*@
+        await OnlastSelectedProductChange.InvokeAsync(name);
     }
 
 }
