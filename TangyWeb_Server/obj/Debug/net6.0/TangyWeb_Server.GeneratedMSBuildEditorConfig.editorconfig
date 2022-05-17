@@ -39,8 +39,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvRGVtb1Byb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponenets/_ChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvTGVhcm5CbGF6b3JDb21wb25lbmV0cy9fQ2hpbGRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponenets/_EditDeleteButton.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvTGVhcm5CbGF6b3JDb21wb25lbmV0cy9fRWRpdERlbGV0ZUJ1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/Pages/LearnBlazor/ParentComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvUGFyZW50Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/Pages/LearnBlazor/_IndividualProduct.razor]
