@@ -1,12 +1,16 @@
 ﻿<Properties StartupConfiguration="{854E44E7-DD1A-4E32-BC38-0D3E5FD76652}|Default">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LearnBlazor/ParentComponent.razor">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LearnBlazor/_IndividualProduct.razor">
     <Files>
       <File FileName="TangyWeb_Server/Shared/NavMenu.razor" Line="28" Column="47" />
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/ParentComponent.razor" Line="11" Column="1" />
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponenets/_ChildComponent.razor" Line="12" Column="1" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/_IndividualProduct.razor" Line="1" Column="1" />
+      <File FileName="TangyWeb_Server/_Imports.razor" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,6 +23,7 @@
               <Node name="Pages" expanded="True">
                 <Node name="LearnBlazor" expanded="True">
                   <Node name="LearnBlazorComponenets" expanded="True" />
+                  <Node name="_IndividualProduct.razor" selected="True" />
                 </Node>
               </Node>
               <Node name="Shared" expanded="True">
@@ -35,8 +40,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
