@@ -1,12 +1,22 @@
-﻿<h3>_ChildComponent</h3>
-
+﻿@*title of childComponent*@
 <div>
     <div class="alert alert-info">@Title</div>
+    <div class="alert alert-success">
+        @if (ChildContent != null)
+        {
+            <span>@ChildContent</span>
+        }
+        else
+        {
+            <span>Hello, from Empty Render Fragment</span>
+        }
+    </div>
 </div>
 
 @code {
     [Parameter]
     public string Title { get; set; }
+    public RenderFragment ChildContent { get; set; }
 
 }
 
