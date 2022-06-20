@@ -7,6 +7,9 @@
     @*onchange event*@
     <input type="checkbox" @onchange="FavoriteUpdated" /> Add to Favorite<br /><br />
     Name - @Product.Name<br />
+
+    @*display RenderFragment*@
+    <p>RF from Parent - @FirstFragment @SecondFragment</p>
     Show Properties :
     <input type="checkbox" @bind-value="Product.IsActive" checked="@(Product.IsActive ? "checked":null)" />
 
@@ -33,6 +36,11 @@
 
     [Parameter]
     public EventCallback<string> OnlastSelectedProductChange { get; set; }
+
+    [Parameter]
+    public RenderFragment FirstFragment { get; set; }
+    [Parameter]
+    public RenderFragment SecondFragment { get; set; }
 
     @*Child Component of FavoriteCountUpdate from DemoProduct*@
     @*Click on favorites selection to invoke method*@
