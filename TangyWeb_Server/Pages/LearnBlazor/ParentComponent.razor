@@ -9,9 +9,11 @@
 </_ChildComponent>
 
 <p><b>@messageText</b></p>
+@*invoke _AnotherChildComponent*@
+<_AnotherChildComponent Placeholder="Placeholder from parent" MaxLength="10"></_AnotherChildComponent>
 
-<_ChildComponent Title="This is second child component">
-</_ChildComponent>
+@*<_ChildComponent Title="This is second child component">*@
+@*</_ChildComponent>*@
 
 @code {
     public string messageText = "";
