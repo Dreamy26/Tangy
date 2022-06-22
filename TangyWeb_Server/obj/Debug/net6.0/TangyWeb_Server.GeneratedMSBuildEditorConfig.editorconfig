@@ -51,6 +51,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvTGVhcm5CbGF6b3JDb21wb25lbmV0cy9fRWRpdERlbGV0ZUJ1dHRvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponenets/_GrandChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvTGVhcm5CbGF6b3JDb21wb25lbmV0cy9fR3JhbmRDaGlsZENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/Pages/LearnBlazor/ParentComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvUGFyZW50Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
