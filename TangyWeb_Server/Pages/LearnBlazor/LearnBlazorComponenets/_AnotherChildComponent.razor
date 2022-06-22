@@ -1,6 +1,6 @@
 ﻿<div>
     <h4 class="text-primary pt-3">Another Child Component</h4>
-    <input id="nametemp" @attributes="InputAttributes" />
+    <input id="nametemp" @attributes="InputAttributes" placeholder="Child Placeholder" />
 </div>
 
 @code {
@@ -11,12 +11,10 @@
         [Parameter]
         public string MaxLength { get; set; } = "10";*@
 
-    [Parameter]
-    public Dictionary<string, object> InputAttributes { get; set; } = new Dictionary<string, object>()
-{
-        { "required" , "required"},
-        { "placeholder" , "Initial Text" },
-        { "maxlenghth" , 10 }
-    };
+
+    @*capture unmatched values in the dictionary_Will also assign to the attributes*@
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> InputAttributes { get; set; } = new Dictionary<string, object>();
+
 }
 
