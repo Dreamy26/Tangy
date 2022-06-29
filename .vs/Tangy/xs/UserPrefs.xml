@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{854E44E7-DD1A-4E32-BC38-0D3E5FD76652}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LearnBlazor/ParentComponent.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LearnBlazor/LearnRouting.razor">
     <Files>
-      <File FileName="TangyWeb_Server/Shared/NavMenu.razor" Line="38" Column="59" />
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/ParentComponent.razor" Line="15" Column="1" />
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponenets/_ChildComponent.razor" Line="22" Column="12" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/LearnRouting.razor" Line="1" Column="34" />
+      <File FileName="TangyWeb_Server/Shared/NavMenu.razor" Line="44" Column="87" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,11 +31,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
