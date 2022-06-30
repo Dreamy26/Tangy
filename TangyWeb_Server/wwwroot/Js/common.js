@@ -10,16 +10,16 @@
 window.ShowSwal = (type, message) => {
     if (type === "success") {
         swal.fire({
-            title: "Success Notification!",
-            text: message,
-            icon: "success",
+            "Success Notification!",
+            message,
+            "success",
         });
     }
     if (type === "error") {
         swal.fire({
-            title: "Error Notification!",
-            text: message,
-            icon: "error",
+            "Error Notification!",
+            message,
+            "error",
         });
     }
 }
