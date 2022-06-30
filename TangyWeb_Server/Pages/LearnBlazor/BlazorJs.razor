@@ -6,11 +6,16 @@
 <h3>BlazorJs</h3>
 
 <div class="row">
-    <button class="btn btn-secondary" @onclick="TestConfirmBox">Test Confirm Button</button>
+    <button class="btn btn-secondary" style="width:100px;" @onclick="TestConfirmBox">Test Confirm Button</button>
 </div>
 <div class="row">
-    <button class="btn btn-success" @onclick="ToastrSuccess">Toastr Success</button>
-    <button class="btn btn-danger" @onclick="ToastrFailure">Toastr Failure</button>
+    <button class="btn btn-success" style="width:100px;" @onclick="ToastrSuccess">Toastr Success</button>
+    <button class="btn btn-danger" style="width:100px;" @onclick="ToastrFailure">Toastr Failure</button>
+</div>
+<br />
+<div class="row">
+    <button class="btn btn-success" style="width:100px;" @onclick="SweetAlertSuccess">SweetAlert Success</button>
+    <button class="btn btn-danger" style="width:100px;" @onclick="SweetAlertFailure">SweetAlert Failure</button>
 
 </div>
 
@@ -43,10 +48,19 @@
     }
     private async Task ToastrFailure()
     {
-        await _JsRuntime.ToastrError("Operation FAILED"); //call the method inside common.js
-                                                          //when working with toastr, no ther is no return.. Remove ConfirmResult
-                                                          //if there is not anything to return, InvokeVoidAsync and remove <bool>
+        await _JsRuntime.ToastrSuccess("Operation Failed"); //frm common.js
 
+    }
+    private async Task SweetAlertSuccess()
+    {
+        await _JsRuntime.InvokeVoidAsync("ShowSwal", "success", "Task completed successfully!"); //call the method inside common.js
+                                                                                                 //when working with toastr, no ther is no return.. Remove ConfirmResult
+                                                                                                 //if there is not anything to return, InvokeVoidAsync and remove <bool>
+
+    }
+    private async Task SweetAlertFailure()
+    {
+        await _JsRuntime.InvokeVoidAsync("ShowSwal", "success", "Task failed!");
     }
 }
 
