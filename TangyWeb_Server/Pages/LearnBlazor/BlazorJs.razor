@@ -4,8 +4,14 @@
 @inject IJSRuntime _JsRuntime
 
 <h3>BlazorJs</h3>
+
 <div class="row">
     <button class="btn btn-secondary" @onclick="TestConfirmBox">Test Confirm Button</button>
+</div>
+<div class="row">
+    <button class="btn btn-secondary" @onclick="ToastrSuccess">Toastr Success</button>
+    <button class="btn btn-danger" @onclick="ToastrFailure">Toastr Failure</button>
+
 </div>
 
 <div class="row">
@@ -27,7 +33,20 @@
     private async Task TestConfirmBox()
     {
         ConfirmResult = await _JsRuntime.InvokeAsync<bool>("confirm", ConfirmMessage); //call the await
-                                                                                       // on the JSRuntime
+                                                                                       //Invoke Async when there is a return type, on the JSRuntime
+                                                                                       //Add script to _Layout
+    }
+    private async Task ToastrSuccess()
+    {
+        await _JsRuntime.InvokeVoidAsync("ShowToaster", "success", "Success!!"); //frm common.js
+
+    }
+    private async Task ToastrFailure()
+    {
+        await _JsRuntime.InvokeVoidAsync("ShowToaster", "error", "Error!!"); //call the method inside common.js
+                                                                             //when working with toastr, no ther is no return.. Remove ConfirmResult
+                                                                             //if there is not anything to return, InvokeVoidAsync and remove <bool>
+
     }
 }
 
