@@ -9,7 +9,7 @@
     <button class="btn btn-secondary" @onclick="TestConfirmBox">Test Confirm Button</button>
 </div>
 <div class="row">
-    <button class="btn btn-secondary" @onclick="ToastrSuccess">Toastr Success</button>
+    <button class="btn btn-success" @onclick="ToastrSuccess">Toastr Success</button>
     <button class="btn btn-danger" @onclick="ToastrFailure">Toastr Failure</button>
 
 </div>
@@ -38,14 +38,14 @@
     }
     private async Task ToastrSuccess()
     {
-        await _JsRuntime.InvokeVoidAsync("ShowToaster", "success", "Success!!"); //frm common.js
+        await _JsRuntime.ToastrSuccess("Operation Successful"); //frm common.js
 
     }
     private async Task ToastrFailure()
     {
-        await _JsRuntime.InvokeVoidAsync("ShowToaster", "error", "Error!!"); //call the method inside common.js
-                                                                             //when working with toastr, no ther is no return.. Remove ConfirmResult
-                                                                             //if there is not anything to return, InvokeVoidAsync and remove <bool>
+        await _JsRuntime.ToastrError("Operation FAILED"); //call the method inside common.js
+                                                          //when working with toastr, no ther is no return.. Remove ConfirmResult
+                                                          //if there is not anything to return, InvokeVoidAsync and remove <bool>
 
     }
 }
