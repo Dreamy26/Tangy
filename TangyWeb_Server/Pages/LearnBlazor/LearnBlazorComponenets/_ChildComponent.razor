@@ -1,4 +1,5 @@
-﻿@*title of childComponent*@
+﻿@inject IJSRuntime _JsRuntime
+@*title of childComponent*@
 <div>
     <div class="alert alert-info">@Title</div>
     <div class="alert alert-success">
@@ -18,15 +19,19 @@
 
 @code {
 
-
-
-
     [Parameter]
     public string Title { get; set; }
     [Parameter]
     public RenderFragment ChildContent { get; set; }
     [Parameter]
+    public RenderFragment DangerChildContent { get; set; }
+    [Parameter]
     public EventCallback OnButtonClick { get; set; }
+    public async Task ToastrSuccess() // to access the methods make sure to change from private if coping.
+    {
+        await _JsRuntime.ToastrSuccess("Operation Successful"); //frm common.js
+
+    }
 
 }
 

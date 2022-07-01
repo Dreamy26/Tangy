@@ -1,16 +1,10 @@
 ﻿<Properties StartupConfiguration="{854E44E7-DD1A-4E32-BC38-0D3E5FD76652}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/wwwroot/Js/common.js">
     <Files>
-      <File FileName="TangyWeb_Server/Shared/NavMenu.razor" Line="52" Column="11" />
-      <File FileName="TangyWeb_Server/Pages/_Layout.cshtml" Line="18" Column="14" />
-      <File FileName="TangyWeb_Server/wwwroot/Js/common.js" Line="6" Column="22" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/BlazorJs.razor" Line="13" Column="34" />
+      <File FileName="TangyWeb_Server/wwwroot/Js/common.js" Line="22" Column="15" />
+      <File FileName="TangyWeb_Server/Pages/_Layout.cshtml" Line="40" Column="1" />
+      <File FileName="TangyWeb_Server/Helper/IJSRuntimeExtension.cs" Line="14" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,18 +14,13 @@
               <Node name="LearnBlazorModels" expanded="True" />
             </Node>
             <Node name="TangyWeb_Server" expanded="True">
+              <Node name="Helper" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="LearnBlazor" expanded="True" />
               </Node>
-              <Node name="Shared" expanded="True">
-                <Node name="NavMenu.razor" expanded="True" />
-              </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="Js" expanded="True">
-                  <Node name="common.js" selected="True" />
-                </Node>
+                <Node name="Js" expanded="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -41,4 +30,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
