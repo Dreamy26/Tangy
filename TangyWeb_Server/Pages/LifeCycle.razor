@@ -1,15 +1,17 @@
 ﻿@page "/learnBlazor/lifecycle"
+
 <h3>LifeCycle</h3>
 
 <p role="status">Current count: @currentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button> @* button that increments the counter *@
 
+<hr />
 @foreach (var item in EventType)
 {
     @item // display item
     <hr />
-  // adds a horizontal line
+    // adds a horizontal line
 }
 
 @code {
@@ -24,11 +26,12 @@
 
     protected override void OnInitialized()
     {
-        base.OnInitialized();
+        EventType.Add("Onintialized is called");
     }
-    protected override Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
-        return base.OnInitializedAsync();
+        EventType.Add("OnintializedAsync is called");
+        await Task.Delay(1000);
     }
 }
 
