@@ -1,7 +1,29 @@
 ﻿
 <h3>_LifeCycleChid</h3>
 
+
+
+
+<hr />
+@foreach (var item in EventType)
+{
+    @item // display item
+    <hr />
+    // adds a horizontal line
+}
+
 @code {
+    List<string> EventType = new List<string>();
+
+
+
+
+    protected override void OnInitialized() //onInitialized is invoked b4 Async
+    {
+        EventType.Add("Child - Onintialized is called");
+    }
 
 }
+
+
 
