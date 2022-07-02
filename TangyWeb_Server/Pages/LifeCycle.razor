@@ -35,7 +35,17 @@
     protected override async Task OnInitializedAsync()
     {
         EventType.Add("OnintializedAsync is called");
-        await Task.Delay(1000);
+        await Task.Delay(1000); // The 'await' operator can only be used within an async method.
+    }
+
+    protected override void OnParametersSet()
+    {
+        EventType.Add("OnParametersSet is called");
+    }
+    protected override async Task OnParametersSetAsync()
+    {
+        EventType.Add("OnParametersSetAsync is called");
+        await Task.Delay(1000); // mark method with the 'async' modifier, change return type to 'Task'.
     }
 }
 

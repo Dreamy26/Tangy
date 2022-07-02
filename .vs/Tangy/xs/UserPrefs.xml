@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{854E44E7-DD1A-4E32-BC38-0D3E5FD76652}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/wwwroot/Js/common.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LifeCycle.razor">
     <Files>
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/BlazorJs.razor" Line="13" Column="34" />
-      <File FileName="TangyWeb_Server/wwwroot/Js/common.js" Line="22" Column="15" />
-      <File FileName="TangyWeb_Server/Pages/_Layout.cshtml" Line="40" Column="1" />
-      <File FileName="TangyWeb_Server/Helper/IJSRuntimeExtension.cs" Line="14" Column="69" />
+      <File FileName="TangyWeb_Server/Pages/LifeCycle.razor" Line="36" Column="6" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponenets/_LifeCycleChild.razor" Line="23" Column="32" />
+      <File FileName="TangyWeb_Server/Shared/NavMenu.razor" Line="38" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,11 +15,11 @@
             <Node name="TangyWeb_Server" expanded="True">
               <Node name="Helper" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="LearnBlazor" expanded="True" />
+                <Node name="LearnBlazor" expanded="True">
+                  <Node name="LearnBlazorComponenets" expanded="True" />
+                </Node>
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="Js" expanded="True" />
-              </Node>
+              <Node name="Shared" expanded="True" />
             </Node>
           </Node>
         </State>
