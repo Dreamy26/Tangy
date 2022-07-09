@@ -17,12 +17,15 @@
 
 
 
-
     protected override void OnInitialized() //onInitialized is invoked b4 Async
     {
         EventType.Add("Child - Onintialized is called");
     }
-    protected
+    protected override void OnParametersSet()
+    {
+        EventType.Add("Child - OnParametersSet is called");
+
+    }
 
 }
 

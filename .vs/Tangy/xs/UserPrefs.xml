@@ -1,9 +1,17 @@
 ﻿<Properties StartupConfiguration="{854E44E7-DD1A-4E32-BC38-0D3E5FD76652}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LifeCycle.razor">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Program.cs">
     <Files>
-      <File FileName="TangyWeb_Server/Pages/LifeCycle.razor" Line="36" Column="6" />
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponenets/_LifeCycleChild.razor" Line="23" Column="32" />
+      <File FileName="TangyWeb_Server/Pages/LifeCycle.razor" Line="10" Column="125" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponenets/_LifeCycleChild.razor" Line="30" Column="2" />
       <File FileName="TangyWeb_Server/Shared/NavMenu.razor" Line="38" Column="45" />
+      <File FileName="TangyWeb_Server/Program.cs" Line="35" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,11 +37,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
