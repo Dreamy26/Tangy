@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Tangy_DataAccess.Data
+namespace Tangy_DataAccess
 {
     public class Category
     {
