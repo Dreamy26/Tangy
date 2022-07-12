@@ -1,31 +1,29 @@
 ﻿<Properties StartupConfiguration="{854E44E7-DD1A-4E32-BC38-0D3E5FD76652}|Default">
-  <MonoDevelop.Ide.ItemProperties.Tangy__Common FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Tangy__Business FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.Tangy__DataAccess FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <DisabledProjects>
+    <String>Tangy_Business/Tangy_Business.csproj</String>
+    <String>Tangy_Common/Tangy_Common.csproj</String>
+    <String>Tangy_DataAccess/Tangy_DataAccess.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Program.cs">
     <Files>
-      <File FileName="TangyWeb_Server/Pages/LifeCycle.razor" Line="10" Column="125" />
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponenets/_LifeCycleChild.razor" Line="30" Column="2" />
-      <File FileName="TangyWeb_Server/Shared/NavMenu.razor" Line="38" Column="45" />
-      <File FileName="TangyWeb_Server/Program.cs" Line="35" Column="1" />
+      <File FileName="TangyWeb_Server/Program.cs" Line="15" Column="40" />
+      <File FileName="TangyWeb_Server/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Tangy" expanded="True">
-            <Node name="Tangy_Models" expanded="True">
-              <Node name="LearnBlazorModels" expanded="True" />
-            </Node>
+            <Node name="Tangy_Models" expanded="True" />
             <Node name="TangyWeb_Server" expanded="True">
-              <Node name="Helper" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="LearnBlazor" expanded="True">
-                  <Node name="LearnBlazorComponenets" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="Shared" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -35,7 +33,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>
