@@ -1,16 +1,6 @@
 ﻿<Properties StartupConfiguration="{854E44E7-DD1A-4E32-BC38-0D3E5FD76652}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <DisabledProjects>
-    <String>Tangy_Business/Tangy_Business.csproj</String>
-    <String>Tangy_Common/Tangy_Common.csproj</String>
-    <String>Tangy_DataAccess/Tangy_DataAccess.csproj</String>
-  </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Program.cs">
     <Files>
       <File FileName="TangyWeb_Server/Program.cs" Line="15" Column="40" />
@@ -33,4 +23,15 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Business FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <DisabledProjects>
+    <String>Tangy_Business/Tangy_Business.csproj</String>
+    <String>Tangy_Common/Tangy_Common.csproj</String>
+    <String>Tangy_DataAccess/Tangy_DataAccess.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Tangy__Common FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Tangy__DataAccess FirstBuild="True" />
 </Properties>
