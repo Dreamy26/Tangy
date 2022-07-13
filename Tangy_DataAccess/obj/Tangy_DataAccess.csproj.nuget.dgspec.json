@@ -4,6 +4,91 @@
     "/Users/dreamy/AW_Code/Tangy/Tangy_DataAccess/Tangy_DataAccess.csproj": {}
   },
   "projects": {
+    "/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/TangyWeb_Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/TangyWeb_Server.csproj",
+        "projectName": "TangyWeb_Server",
+        "projectPath": "/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/TangyWeb_Server.csproj",
+        "packagesPath": "/Users/dreamy/.nuget/packages/",
+        "outputPath": "/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dreamy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/dreamy/AW_Code/Tangy/Tangy_Models/Tangy_Models.csproj": {
+                "projectPath": "/Users/dreamy/AW_Code/Tangy/Tangy_Models/Tangy_Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/dreamy/AW_Code/Tangy/Tangy_DataAccess/Tangy_DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +97,88 @@
         "projectPath": "/Users/dreamy/AW_Code/Tangy/Tangy_DataAccess/Tangy_DataAccess.csproj",
         "packagesPath": "/Users/dreamy/.nuget/packages/",
         "outputPath": "/Users/dreamy/AW_Code/Tangy/Tangy_DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dreamy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/TangyWeb_Server.csproj": {
+                "projectPath": "/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/TangyWeb_Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dreamy/AW_Code/Tangy/Tangy_Models/Tangy_Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dreamy/AW_Code/Tangy/Tangy_Models/Tangy_Models.csproj",
+        "projectName": "Tangy_Models",
+        "projectPath": "/Users/dreamy/AW_Code/Tangy/Tangy_Models/Tangy_Models.csproj",
+        "packagesPath": "/Users/dreamy/.nuget/packages/",
+        "outputPath": "/Users/dreamy/AW_Code/Tangy/Tangy_Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dreamy/.nuget/NuGet/NuGet.Config"
@@ -37,26 +204,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[6.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

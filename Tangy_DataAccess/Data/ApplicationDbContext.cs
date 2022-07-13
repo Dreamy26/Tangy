@@ -1,11 +1,17 @@
 ﻿using System;
-namespace Tangy_DataAccess.Data
+using Microsoft.EntityFrameworkCore;
+
+
+namespace Tangy_DataAccess.Data;
+
+public class ApplicationDbContext : DbContext
+//public class ApplicationDbContext : IdenttityDbContext
 {
-	public class ApplicationDbContext
-	{
-		public ApplicationDbContext()
-		{
-		}
-	}
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+    {
+
+    }
+
+    public DbSet<Category> Categories { get; set; } // inside Db, creates a table name Categories
 }
 

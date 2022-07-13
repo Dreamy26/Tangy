@@ -1,18 +1,44 @@
 ﻿<Properties StartupConfiguration="{854E44E7-DD1A-4E32-BC38-0D3E5FD76652}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <DisabledProjects>
+    <String>Tangy_Business/Tangy_Business.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Program.cs">
     <Files>
-      <File FileName="TangyWeb_Server/Program.cs" Line="15" Column="40" />
-      <File FileName="TangyWeb_Server/appsettings.json" Line="1" Column="1" />
+      <File FileName="TangyWeb_Server/Program.cs" Line="3" Column="28" />
+      <File FileName="Tangy_DataAccess/Category.cs" Line="1" Column="1" />
+      <File FileName="Tangy_DataAccess/Data/ApplicationDbContext.cs" Line="5" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Tangy" expanded="True">
+            <Node name="Business" expanded="True" />
+            <Node name="Tangy_DataAccess" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+            </Node>
             <Node name="Tangy_Models" expanded="True" />
             <Node name="TangyWeb_Server" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="Data" expanded="True" />
+              <Node name="Helper" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Shared" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="Js" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -23,15 +49,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Business FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <DisabledProjects>
-    <String>Tangy_Business/Tangy_Business.csproj</String>
-    <String>Tangy_Common/Tangy_Common.csproj</String>
-    <String>Tangy_DataAccess/Tangy_DataAccess.csproj</String>
-  </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.Tangy__Common FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Tangy__DataAccess FirstBuild="True" />
 </Properties>

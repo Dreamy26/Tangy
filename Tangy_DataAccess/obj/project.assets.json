@@ -634,6 +634,35 @@
             "rid": "win"
           }
         }
+      },
+      "TangyWeb_Server/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",
+          "Tangy_Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TangyWeb_Server.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TangyWeb_Server.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Tangy_Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Tangy_Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tangy_Models.dll": {}
+        }
       }
     }
   },
@@ -1854,14 +1883,26 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TangyWeb_Server/1.0.0": {
+      "type": "project",
+      "path": "../TangyWeb_Server/TangyWeb_Server.csproj",
+      "msbuildProject": "../TangyWeb_Server/TangyWeb_Server.csproj"
+    },
+    "Tangy_Models/1.0.0": {
+      "type": "project",
+      "path": "../Tangy_Models/Tangy_Models.csproj",
+      "msbuildProject": "../Tangy_Models/Tangy_Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.7",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.7",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.7"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.7",
+      "TangyWeb_Server >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1888,7 +1929,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/TangyWeb_Server.csproj": {
+              "projectPath": "/Users/dreamy/AW_Code/Tangy/TangyWeb_Server/TangyWeb_Server.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1902,6 +1947,12 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.7, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.7, )"
           },
